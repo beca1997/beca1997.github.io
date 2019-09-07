@@ -1,0 +1,204 @@
+body{
+	background-color:f5f5f5;
+	color:#555555;
+	font-family:"Oswald", sans-serif;
+	font-size:16px;
+	font-weight:normal;
+	
+	line-height:1.5;
+	margin:0;
+	padding:0;
+}
+
+header a:hover{
+	color:#ccc;
+	font-weight:bold;
+}
+
+.dark{
+	padding:15px;
+	background:#35424a;
+	color:#fff;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+
+header{
+	background:#a80000;
+	color:#fff;
+	padding-top:30px;
+	min-height:70px;
+	border-bottom:#e8491d 3px solid;
+}
+	
+
+
+header #branding{
+	float:left;
+}
+
+header #branding h1{
+	font-size:4rem;
+	text-transform:small-caps;
+}
+
+header .highlight, header .current a{
+	color:#001eff;
+	font-weight:bold;
+}
+
+header nav{
+	float:right;
+	margin-top:-40px;
+}
+
+header a{
+	color:#fff;
+	text-decoration:none;
+	font-size:16px;
+	text-transform:uppercase;
+}
+
+header li{
+	float:left;
+	display:inline;
+	padding: 0 20px 0 20px;
+}
+
+
+ul{
+	padding:0;
+	margin:0;
+}
+
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+	
+}
+
+#showcase{
+	min-height:400px;
+	background-image:url("../images/showcase.jpg");
+	background-position: center right;
+	text-align:center;
+	color:#fff;
+}
+
+#showcase h1{
+	margin-top:100px;
+	margin-bottom:20px;
+	font-size:55px;
+}
+
+#showcase p{
+	font-size:1.7rem;
+	text-align:justified;
+}
+
+#boxes{
+	margin-top:20px;
+}
+
+#boxes .box{
+	float:left;
+	width:30%;
+	padding:10px;
+	text-align:center;
+}
+
+#boxes .box img{
+	width:200px;
+	height:200px;
+}
+
+
+
+aside#sidebar{
+	float:right;
+	width:30%;
+	margin-top:10px;
+}
+
+aside#sidebar img{
+	float:center;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+	width:90%;
+	padding:5px;
+
+}
+
+
+article#main-col{
+	float:left;
+	width:65%;
+}
+
+img{
+	width:100%;
+	
+}
+
+.card{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap:2rem;
+	background:#f1f1f1;
+	margin-bottom:2rem;
+}
+
+.card h3{
+	margin-bottom:2rem;
+}
+
+.card p{
+	margin-bottom:1rem;
+}
+
+.card img{
+	height:400px;
+}
+
+.card >div{
+	padding:2rem;
+}
+
+.container-gallery{
+	max-width: 1100px;
+	margin:auto;
+	margin-top:20px;
+	overflow:auto;
+	padding: 0 2rem;
+}
+.card:nth-child(even) img{
+	order:2;
+	
+}
+
+.btn{
+	display:inline-block;
+	background:#000;
+	color:#fff;
+	padding:0.8rem 1.8rem;
+	cursor:pointer;
+}
+
+.btn a{
+	text-decoration:none;
+}
+
+.btn:hover{
+	opacity:0.6;
+	background:red;
+}
+
+@media(max-width: 700px){
+	.card{
+		display:block;
+	}
+}
